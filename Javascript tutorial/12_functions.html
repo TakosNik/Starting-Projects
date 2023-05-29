@@ -17,7 +17,7 @@ return calculation;
 
 }
 
-var result = addNumbers();
+var result = multiply();
 
 var cal = result + 1000;
 
@@ -30,7 +30,15 @@ alert(cal);
 
 <script>
 // function addNumbers(number1,number2){
+function multiply() {
+	var number1 = 10;
+	var number2 = 20;
+	var calculation = number1 * number2;
 
+	document.write(calculation);
+
+	return calculation;
+}
 // var calculation = number1 * number2;
 // document.write(calculation);
 // }
@@ -72,7 +80,7 @@ alert(cal);
 
 </script>
 
-
+multiply();
 	
 </body>
 </html>
